@@ -70,4 +70,4 @@ theme: landscape
 deploy:
   type: git
   repo: http://github.com/edge-core/edge-core.github.io.git
-  branch: gh-pages
+  branch: master
