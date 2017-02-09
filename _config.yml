@@ -68,4 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: http://github.com/edge-core/edge-core.github.io.git
+  branch: gh-pages
