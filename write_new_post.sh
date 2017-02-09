@@ -1,0 +1,1 @@
+./utils/write_new_post.sh
