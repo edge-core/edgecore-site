@@ -7,7 +7,7 @@ tags:
 - support
 ---
 
-{% blockquote ONIE http://onie.org/ %}
+{% blockquote Open Network Install Environment, ONIE http://onie.org/ %}
 ONIE is an Open Compute Project open source initiative contributed by Cumulus Networks that defines an open “install environment” for bare metal network switches.
 {% endblockquote %}
 
