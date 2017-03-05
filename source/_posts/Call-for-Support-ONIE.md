@@ -19,6 +19,8 @@ ONIE provide the command which help customer send the support bundle to vendor. 
 
 ## How to support?
 
+<!--more-->
+
 1. Download [`onie-support` source](https://raw.githubusercontent.com/opencomputeproject/onie/master/rootconf/default/bin/onie-support)
 
 2. Put the file into ONIE via any methods (tftp/ftp/http/USB) 

@@ -16,6 +16,8 @@ ONL uses ONIE to install onto on-board flash memory. Open Network Linux is a par
 
 ## How to support?
 
+<!--more-->
+
 1. Download [`onl-support` source](https://raw.githubusercontent.com/pichuang/OpenNetworkLinux/b529ecf4cf4b9464328ee96181aa5168f0aa2b31/packages/base/all/vendor-config-onl/src/bin/onl-support)
 
 2. Put the file into ONL platform via `wget`
