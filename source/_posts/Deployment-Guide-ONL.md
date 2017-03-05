@@ -24,7 +24,7 @@ tags:
 ## Preinstall ONL
 
 - We suggest you that choose ONL version [`2016.12.22.18.28.604af0c9b3dc9504870c30273ab22f2fb62746c3`][6] and choose `Debian 8`
-  - For PowerPC, use [ONL-2.0.0-ONL-OS-DEB8-2016-12-22.1828-604af0c-PPC-INSTALLED-INSTALLER][7]
+  - For PowerPC based, use [ONL-2.0.0-ONL-OS-DEB8-2016-12-22.1828-604af0c-PPC-INSTALLED-INSTALLER][7]
   - For x86 based, use [ONL-2.0.0-ONL-OS-DEB8-2016-12-22.1828-604af0c-AMD64-INSTALLED-INSTALLER][8]
 
 - Download ONL installer images into USB or follow the [Quick Start Guide - ONIE][5]
