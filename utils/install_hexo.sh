@@ -6,6 +6,7 @@
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
 nvm install stable
 npm install -g hexo-cli
+npm install --save  # Read package.json
 
 cat <<'EOF' >> ~/.bashrc
 export NVM_DIR="$HOME/.nvm"
