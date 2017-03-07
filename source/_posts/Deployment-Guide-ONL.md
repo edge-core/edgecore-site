@@ -12,6 +12,8 @@ tags:
 
 ## Getting Started
 
+The all of process has 5 steps:
+
 1. Check the [ONL compatible switch][2]
 2. Choose the [ONL installer version][3]
   - Accton/Edgecore have difference CPU type

@@ -71,3 +71,6 @@ deploy:
   type: git
   repo: http://github.com/edge-core/edge-core.github.io.git
   branch: master
+
+# Disqus comments
+disqus_shortname: edgecore-github
