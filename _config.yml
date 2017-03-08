@@ -74,3 +74,10 @@ deploy:
 
 # Disqus comments
 disqus_shortname: edgecore-github
+
+sitemap:
+  path: sitemap.xml
+
+robotstxt:
+  useragent: "*"
+  sitemap: https://edge-core.github.io/sitemap.xml
