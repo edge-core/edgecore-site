@@ -6,6 +6,7 @@ tags:
 - ofdpa
 - onl
 - debug
+- how-to
 ---
 
 ## Introduction to Broadcom OF-DPA
