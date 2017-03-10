@@ -8,13 +8,16 @@ tags:
 - onie
 ---
 
+<br />
 {% img https://archive.openswitch.net/logo/OpenSwitchLogo4Sticker.png 300 400 %} 
+<br />
 
 ## Introduction to OpenSwitch
 
 {% blockquote OpenSwitch http://www.openswitch.net/ %}
 The OpenSwitch OPX system is an innovative operating system for network systems. This information describes how it enables you to unleash new and creative ways to deploy, orchestrate, and manage your networking, servers, and storage solutions in your data centers and enterprise environments.
 {% endblockquote %}
+
 ## Getting Started
 
 1. Check Support Platform list
