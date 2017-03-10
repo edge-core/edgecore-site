@@ -25,16 +25,20 @@ The all of process has 5 steps:
 
 ## Preinstall ONL
 
+<!--more-->
+
 - We suggest you that choose ONL version [`2016.12.22.18.28.604af0c9b3dc9504870c30273ab22f2fb62746c3`][6] and choose `Debian 8`
   - For PowerPC based, use [ONL-2.0.0-ONL-OS-DEB8-2016-12-22.1828-604af0c-PPC-INSTALLED-INSTALLER][7]
   - For x86 based, use [ONL-2.0.0-ONL-OS-DEB8-2016-12-22.1828-604af0c-AMD64-INSTALLED-INSTALLER][8]
 
 - Download ONL installer images into USB or follow the [Quick Start Guide - ONIE][5]
 
-<!--more-->
 
 ## Enter ONIE (Rescue Mode)
 
+- Connect to console port via console cable
+  - 115200/8/n/1
+- Power-on switch
 - If the bootloader is GRUB
   - Select `ONIE -> ONIE: Rescue`
 - If the bootloader is U-Boot
@@ -42,7 +46,7 @@ The all of process has 5 steps:
   - `Press any key` 
   - Enter `run onie_rescue` to enter ONIE rescue mode.
 
-## Install ONL (Example: Accton/Edgecore AS5712-54X)
+## Install ONL (Example: Edgecore AS5712-54X)
 
 - Install via HTTP
 ```bash

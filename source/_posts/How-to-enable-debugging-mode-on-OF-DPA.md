@@ -11,7 +11,10 @@ tags:
 ## Introduction to Broadcom OF-DPA
 Broadcom's OpenFlow Data Plane Abstraction (OF-DPA) is an application software component that implements an adaptation layer between OpenFlow and the Broadcom Silicon SDK. OF-DPA enables scalable implementation of OpenFlow 1.3.4 on Broadcom switch devices.
 
-## Enable OF-DPA at debugging mode 
+## Enable OF-DPA at debugging mode
+
+<!--more-->
+
 ```bash
 killall ofagentapp
 launcher ofagentapp -a2 -d4 -c1 -c2 -c3 -c4 -c5 --controller=x.x.x.x ...
@@ -40,8 +43,6 @@ launcher ofagentapp -a2 -d4 -c1 -c2 -c3 -c4 -c5 --controller=x.x.x.x ...
     - 5 = Datapath
     - 6 = [G8131][4]
     - 7 = [Y1731][3]
-
-<!--more-->
 
 ## Example
 ```

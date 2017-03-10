@@ -31,8 +31,6 @@ The OpenSwitch OPX system is an innovative operating system for network systems.
 - [Edgecore AS6712-32X][2]
 - [Edgecore AS5712-54X][1]
 
-<!--more-->
-
 ## Enter ONIE (Rescue Mode)
 
 - Connect to console port via console cable
@@ -41,6 +39,8 @@ The OpenSwitch OPX system is an innovative operating system for network systems.
 - Select `ONIE -> ONIE: Rescue` when you see the GRUB menu
 
 ## Install OpenSwitch (Example: Edgecore AS5712-54X)
+
+<!--more-->
 
 - Install via USB
 ```bash
