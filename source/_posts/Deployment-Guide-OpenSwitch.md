@@ -1,7 +1,7 @@
 ---
 title: Deployment Guide - OpenSwitch
 date: 2017-03-10 00:15:16
-updated: 2017-03-10 00:15:16
+updated: 2017-03-20 00:15:16
 tags:
 - opx
 - deployment
@@ -199,7 +199,7 @@ switch#
 - [opx-docs - OpenSwitch Github][5]
 - [Archive - OpenSwitch][4]
 - [OpenSwitch Official Website][6]
-
+- [OpenSwitch (OPX) Introduction - OCP 2017][7]
 
 [1]: https://archive.openswitch.net/artifacts/periodic/release/ops-1.0.0-release+2017030612/as5712/
 [2]: https://archive.openswitch.net/artifacts/periodic/release/ops-1.0.0-release+2017030900/as6712/
@@ -207,3 +207,4 @@ switch#
 [4]: https://archive.openswitch.net/artifacts/periodic/release/
 [5]: https://github.com/open-switch/opx-docs/wiki
 [6]: http://www.openswitch.net/
+[7]: https://www.youtube.com/watch?v=d0SjKwF8IKQ
