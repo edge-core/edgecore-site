@@ -49,7 +49,7 @@ service ofagentd restart
 
 ## Stop OFAgent
 ```bash
-pkill ofagentapp
+service ofagentd stop
 ```
 
 ## List of CLI instructions
