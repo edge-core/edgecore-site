@@ -1,7 +1,7 @@
 ---
 title: How to install OF-DPA in Edgecore Switches
 date: 2017-06-21 14:00:23
-updated: 2017-06-21 14:00:23
+updated: 2017-06-29 00:00:00
 tags:
 - ofdpa
 - onl
@@ -22,8 +22,8 @@ Broadcom's OpenFlow Data Plane Abstraction (OF-DPA) is an application software c
 ## Download OF-DPA Package
 We provide 2 different sources:
 - Private version
-  - Please contact your sales to get it
-- Community version
+  - Please contact Broadcom team
+- Community version (latest: ofdpa_3.0.4.0+accton1.0~1-1_* a.k.a 3.0-EA4)
   - [Download link][3]
 
 ## Install OF-DPA Package
@@ -40,10 +40,12 @@ dpkg -i --force-overwrite /mnt/onl/data/ofdpa_3.0.4.0+accton1.7-3-1_amd64.deb
 
 ## Start OFAgent
 ```bash
-launcher ofagentapp --controller=<CONTROLLER_IP>:6653 --listen=<SWITCH_MA1_IP>:6633
+service ofagentd restart
 ```
-- [More OF-DPA cheat sheet][4]
-- [How to enable debugging mode on OF-DPA][6]
+  - The configuration of ofagentapp is at `/etc/ofagent/ofagent.conf`
+  - [More OF-DPA cheat sheet][4]
+  - [How to enable debugging mode on OF-DPA][6]
+  - [OpenvSwitch ovs-ofctl and OF-DPA][7]
 
 ## Stop OFAgent
 ```bash
@@ -95,3 +97,4 @@ Processing triggers for libc-bin (2.19-18+deb8u6) ...
 [4]: http://blog.pichuang.com.tw/ofdpa-with-onl-cheat-sheet/
 [5]: https://edge-core.github.io/Deployment-Guide-ONL/
 [6]: https://edge-core.github.io/How-to-enable-debugging-mode-on-OF-DPA/
+[7]: http://blog.pichuang.com.tw/ovs-ofctl-and-ofdpa/
