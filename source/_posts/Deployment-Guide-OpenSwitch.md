@@ -15,20 +15,18 @@ tags:
 ## Introduction to OpenSwitch
 
 {% blockquote OpenSwitch http://www.openswitch.net/ %}
-The OpenSwitch OPX system is an innovative operating system for network systems. This information describes how it enables you to unleash new and creative ways to deploy, orchestrate, and manage your networking, servers, and storage solutions in your data centers and enterprise environments.
+The OpenSwitch OPS system is an innovative operating system for network systems. This information describes how it enables you to unleash new and creative ways to deploy, orchestrate, and manage your networking, servers, and storage solutions in your data centers and enterprise environments.
 {% endblockquote %}
 
 ## Getting Started
 
 1. Check Support Platform list
 2. Choose the [OpenSwitch installer version][4]
-3. Install OpenSwitch into Edgecore switch via ONIE
+3. Install OpenSwitch OPS into Edgecore switch via ONIE
 4. Login OpenSwitch
 5. Do anything you want to on OpenSwitch
 
 ## Support Platform
-- [Edgecore AS7712-32X][3]
-- [Edgecore AS6712-32X][2]
 - [Edgecore AS5712-54X][1]
 
 ## Enter ONIE (Rescue Mode)
@@ -47,7 +45,7 @@ The OpenSwitch OPX system is an innovative operating system for network systems.
 mkdir /tmp/onie-image
 mount /dev/<USB Devices> /tmp/onie-image
 cd /tmp/onie-image
-onie-nos-install openswitch-onie-installer-x86_64-as5712_54x-ops-1.0.0-release+2017030612
+onie-nos-install openswitch-onie-installer-x86_64-as5712_54x-ops-1.0.0-release+*
 ```
 
 ## Default Username in OpenSwitch
@@ -201,9 +199,7 @@ switch#
 - [OpenSwitch Official Website][6]
 - [OpenSwitch (OPX) Introduction - OCP 2017][7]
 
-[1]: https://archive.openswitch.net/artifacts/periodic/release/ops-1.0.0-release+2017030612/as5712/
-[2]: https://archive.openswitch.net/artifacts/periodic/release/ops-1.0.0-release+2017030900/as6712/
-[3]: https://archive.openswitch.net/artifacts/periodic/release/ops-1.0.0-release+2017030912/as7712/
+[1]: https://archive.openswitch.net/artifacts/periodic/release/latest/
 [4]: https://archive.openswitch.net/artifacts/periodic/release/
 [5]: https://github.com/open-switch/opx-docs/wiki
 [6]: http://www.openswitch.net/
